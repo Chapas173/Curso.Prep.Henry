@@ -1,0 +1,32 @@
+Variables:
+Las variables son espacios de memoria, que serán usados para guardar
+alguna información, como un número, un texto, etc.
+
+Strings:
+Son un tipo de dato que se refieren a un texto, para diferenciarlos
+se usan las comillas simple o dobles. Por ejemplo decir 15 no es lo
+mismo que decir "15", el primero es un número y el segundo una 
+cadena o string.
+
+Funciones(argumentos,return):
+Las funciones son un conjunto de instrucciones (código) que realizan
+una acción en específico. Nos ayuda a no repetir código que se usa
+varias veces en nuestro programa. Algunas funciones necesitan de
+argumentos, los argumentos son datos que brindamos a lafunción
+al momento de llamar a la función que son necesarias para que la 
+función realice su tarea. Una vez realizada su tarea esta devuelve
+un valor, la palabra clave return nos ayuda a devolver el resultado
+de la función. Si no se define el return las funciones devolverán 
+undefined en JS.
+
+Declaraciones if:
+if es una instrucción que nos ayuda a evaluar una expresión condicional
+en verdadero o falso. Si la expresión es verdadera nos brinda un conjunto
+de instrucciones que solo se ejecutan en este caso. Si la condición
+es false las instrucciones dentro de la instrucción if no se ejecutarán. 
+
+Valores booleanos (true, false):
+Los valores booleanos son también un tipo de dato que solo tienen 2
+valores true y false. Estos valores normalmente son usados para 
+evaluar si alguna intrucción o condición se cumple o no.  
+
