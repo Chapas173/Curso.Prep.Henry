@@ -1,0 +1,29 @@
+for:
+Es una intruccion de bucle que nos permitirá repetir un conjunto
+de instrucciones hasta un límite que nosotros coloquemos. Nos ayuda
+a no repetir código innecesario. Por ejemplo, si queremos mostrar
+en consola los números del 1 al 100, con el bucle for solo
+colocamos una instrucción for(let i=1;i<101;i++){console.log(i)}
+haciendo que el i varíe de 1 a 100 dentro de un for, en vez de 
+poner 100 veces la instrucción console.log(1) .... console.log(100)
+que sería ineficiente ocuparía espacio innecesario en el programa
+y para otros casos como 10,000 ya sería no practico realizar de esa
+manera.
+
+&&:
+Es el operador lógico "AND" (y), que opera entre 2 valores booleanos.
+Por ejemplo : true && false = false. Este operador tiene una tabla
+de verdad que el resultado será verdadero solo cuando ambos sean
+verdaderos (true), todos los demás casos son falsos(false).
+
+||:
+Es el operador lógico "OR"(o), que también opera entre 2 valores 
+booleanos. Por ejemplo : true || false = true. En este caso su tabla
+de verdad nos dará el resultado de falso solo cuando ambos sean 
+falsos(false), en todos los demás casos el resultado es verdadero(true).
+
+!:
+Es el operador lógico "NEGACION", que niega el valor de verdad de
+los booleanos. Por ejemplo !true = false. Este se puede leer como
+la negación de true es false y viceversa.
+
