@@ -1,0 +1,8 @@
+Matrices:
+Las matrices son un conjunto de datos que se agrupan en una sola variable. Que nos ayuda
+a no tener que definir una variable para cada dato. Normalmente se usa para datos relacionados.
+Como la siguiente matriz de los días de la semana: diasSeamana=["Lunes","Martes","Miercoles",
+"Jueves","Viernes","Sabado","Domingo"]. Ejemplo de una matriz que agrupa los días de la
+semana en la variable diasSemana. No tenemos que crear una variable para cada día.
+Al momento de utilizarlo será más fácil ya que sabemos que todos los días de la 
+semana están en una sola matriz.
