@@ -1,0 +1,27 @@
+Objetos:
+Los objetos son una conjunto de datos agrupados, que a diferencia de las matrices, sus datos
+se identifican con una palabra "clave" en vez de un índice, no se pueden enumerar, se declaran 
+entre paréntesis y cada para clave-valor está separado por 2 puntos. Y entre pares por comas.
+Por ejemplo el objeto : alumno = { nombre:"Juan", edad=15, estudia=true, cursos=[Matematica,Fisica]}
+los datos de este objeto son Juan,15,true,[Matematica,Fisica] a los cuales solo podremos acceder
+por sus palabras clave que son nombre,edad,estudia,cursos respectivamente.
+
+Propiedades:
+Las propiedades de un objeto vienen a ser las palabra clave que tienen como valor algo que sea 
+diferente a una funcion como por ejemplo: la propiedad nombre del ejemplo anterior.
+
+Metodos;
+Los metodos de un objeto vienen a ser las palabras clave que tienen como valor una función. Como 
+por ejemplo alumno = {saluda: function(){console.log("Hola")} }, saluda es un método del objeto alumno
+
+Bucle for ...in:
+Para acceder a las propiedades de un objeto debemos usar su clave así es que con un for normal no 
+podremos recorrerlo por el índice ya que no tienen  posición. Para eso usamos el buckle for(let recorre in alumno)
+donde la variable recorre tomara cada clave  del objeto alumno
+
+Notacion de puntos vs notación de corchetes:
+Ambas notaciones nos ayudan a obtener la información de las propiedades o métodos de un objeto. La diferencia es que
+la notación de puntos es más fácil pero tenemos que escribir de manera literal la propiedad o metodo como por ejemplo:
+alumno.nombre, alumno.saludar() porque poner una variable causa error. En cambio en la notación de corchete podemos usar
+variables definidas anteriormente para usar una propiedad o metodo, es más complicada que la notación punto alumno["nombre"]
+, alumno["saludar"]() 
