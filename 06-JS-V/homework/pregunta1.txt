@@ -1,0 +1,21 @@
+prototype:
+Es un keyword que se usa para agregar métodos o propiedades al prototipo de un objeto. De la siguiente manera :
+Perimero se pone el nombre de la clase a la que pertenece el objeto, luego un punto, luego el keyword prototype, 
+nuevamente un punto, finalmente el nombre de la propiedad o metodo y lo igualamos al valor o funcion que le 
+quramos asignar. Por ejemplo : el objeto o1 de la clase Person, le agregamos una propedad y un método
+Person.prototype.city = "Lima";
+Person.prototype.say = function () {return "Bye!";}
+
+Constructores (de Clases):
+La palabra constructor es un keyword de javascript que se da desde ES6 y nos hace referencia al corazón de una clase.
+Ya que para poder llamar a una clase tenemos que guiarnos del constructor porque es donde se inicializa la clase.  
+Por ejemplo la clase Person con algunas propiedades y un método
+class Person {
+    constructor(nombre,edad){
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+    greet(){
+        return "Hello guys!";
+    }
+}
