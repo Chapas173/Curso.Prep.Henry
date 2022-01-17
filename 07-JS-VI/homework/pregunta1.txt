@@ -1,0 +1,17 @@
+funciones callback:
+Las funciones callback son funciones que pedimos como argumentos, para poder usarlas
+en otras funciones o métodos. Para poder usarlas como funciones dentro de la función 
+donde la hemos pasado. Por ejemplo
+function saludar(nombre){
+    return "Hola "+nombre;
+}
+
+function usuario(nombre,cb){
+    return cb(nombre);
+}
+
+usuario("Pedro",saludar);
+
+La función usuario pide 2 parametros una cadena nombre y una funcion callback(cb) la
+cual se usa como funcion dentro de la funcion usuario. Imprimiendo finalmente la cadena 
+Hola Pedro.
